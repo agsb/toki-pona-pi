@@ -40,6 +40,24 @@ Made two corpus, with and without particules (a, ala, e, kin, la, li, lon, nanpa
 
 More analysis is necessary to contextual use ala and seme. (In progress)
 
+### files
+
+Complete:
+
+        out.1s.csv, all words sorted by frequency
+            
+        out.2s.csv, all bigram words sorted by frequency
+            
+        out.3s.csv, all trigram  words sorted by frequency
+
+No particles:
+
+        out.np.1s.csv, all words sorted by frequency
+            
+        out.np.2s.csv, all bigram words sorted by frequency
+            
+        out.3np.s.csv, all trigram  words sorted by frequency
+
 ## Be binary ?
 
 The 124 glyphs of Toki Pona, plus null, space, new line and full stop, could be represented by a byte. 
