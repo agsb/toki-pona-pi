@@ -11,7 +11,9 @@ Using all words, we observed an average frequency of 4,272.83 with a standard de
 The 18 most frequent words, all above 1 standard deviation, correspond to more than 60% of the corpus, 
 and the remaining 106 words, between -1 to 1 standard deviation, account for 40%. 
 
-Both segments have a logaritmic reference with correlation above 0.960
+Both segments have a logaritmic reference with correlation above 0.960, as power law distribuition.
+
+[https://luckytoilet.wordpress.com/wp-content/uploads/2017/07/13.png]
  
  Table 1. The 18 most frequency words, about 60% of corpus; 
  | order | word | frequency | percent | cumulative | deviations |  
