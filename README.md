@@ -32,6 +32,14 @@ Some clean processing of files, removing non a-z characters, translating to lowe
 
 Those programs can be used for statistics of any language.
 
+## Corpus
+
+Got a Toki Pona corpus from tatoeba.org [https://tatoeba.org/] tatoeba.tok, with 56517 lines and 547408 words.
+
+Made two corpus, with and without particules (a, ala, e, kin, la, li, lon, nanpa, o, pi, seme) to processing statistcs.
+
+More analysis is necessary to contextual use ala and seme. (In progress)
+
 ## Be binary ?
 
 The 124 glyphs of Toki Pona, plus null, space, new line and full stop, could be represented by a byte. 
