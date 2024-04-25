@@ -8,7 +8,7 @@ Steven D. Rogers, "One of the language's main goals is a focus on minimalism. It
 
 ## Toki Pona
 
-The Toki Pona (TP) conlang is minimal both in the vocabulary (with only 14 letters and 124 lemmas) and in the (about) 10 syntax rules.
+The Toki Pona (TP) conlang is minimal both in the vocabulary, with only 14 letters and 124 lemmas, and about 10 syntax rules.
 
 The language have glyphs for each word and each word refer to a concept and multiple meanings.
 
@@ -16,12 +16,30 @@ Renato Fabbri, "Basic concepts and tools for the Toki Pona minimal and construct
 
 ## Vocabularies and Dictionaries
 
-Most of meanings of Toki Pona are made by using words as concepts, associating concepts to describing things. The use and order of words does specif a combination for translate and transmit ideas.
+Most of meanings of Toki Pona are made by using words as concepts and associating concepts to describing things. The use and order of words does a specif  combination for translate and transmit ideas.
 
-By using common toki pona texts and calculating the correlation coefficients between words in sequence, shows most used bigrams. The composition of words is a common productive method to create predicates without concatenation of words. As Toki Pona users does.
+By using common toki pona texts and calculating the correlation coefficients between words in sequence, the most used ngrams are showed. . 
+
+The lexicalization [https://sona.pona.la/wiki/Lexicalization] is against the philosophy of Toki Pona, which prefer personal signification against patterns of any dictionary. 
+
+But the common use of composition of words is inherent to any language, as productive method to create predicates without create new words by concatenation.
 
 ## Programs
 
 By simplicity the program is made in awk, with a vocabulary reference, a list of words one by line, and a text source, with lines composed by words separated by spaces, as inputs, and outputs a parsed text, with words and bigrams counts.
 
-Some clean processing of files, removing non a-z characters, translating to lowercase and sort lines, 
+Some clean processing of files, removing non a-z characters, translating to lowercase and sort lines.
+
+Those programs can be used for statistics of any language.
+
+## Be binary ?
+
+The 124 glyphs of Toki Pona, plus null, space, new line and full stop, could be represented by a byte. 
+
+Reserving 0x00 for null, 0x01 for space, 0x02 new line, 0x03 for full stop.
+
+Reserving 0x04 to 0x0E for the 11 particules: a, ala, e, kin, la, li, lon, nanpa, o, pi, seme.
+
+Next 0x0F to 0xFF are used for other glyphs sorted by alphabetic, frequency or any definided criteria.
+    
+The 124 words in Toki Pona can be represented as one byte. 
