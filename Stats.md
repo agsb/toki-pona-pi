@@ -310,6 +310,9 @@ Notes:
 | | | | | |
 
 ## References
+[https://github.com/agsb/toki-pona-pi/blob/main/toki_pona-words.tsv]
+
+[https://github.com/agsb/toki-pona-pi/blob/main/toki_pona-bigrams.tsv]
 
 A Mathematical Theory of Communication, [https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication] 
 
