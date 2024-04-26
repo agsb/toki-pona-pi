@@ -1,21 +1,21 @@
- # Stats of corpus
+# Stats of corpus
 
- ( this file is a stub )
- 
- The Tatoeba.tok corpus used have a frequency of words of 529831 words in 56517 lines. 
- 
- ## Full words, including all particles
+( this file is a stub )
+  
+Using all 124 Toki Pona words for frequency analysis from Tatoeba.tok corpus with have 529831 words in 56517 lines, at 24/04/2024. 
+
+## Common Stats
 
 For reference, we observed a standart average frequency of 4,272.83 with a standard deviation of 4,240.56.
 
 The 18 most frequent words, all above 1 standard deviation, correspond to more than 60% of the corpus, 
 and the remaining 106 words, between -1 to 1 standard deviation, account for 40%. 
 
-Both segments have a logaritmic reference with correlation above 0.960, as power law distribuition.
+In both segments values shows a logaritimic correlation and shapes a power law distribuition.
 
 [https://luckytoilet.wordpress.com/wp-content/uploads/2017/07/13.png]
  
- Table 1. Frequency of words, in corpus; 
+ Table I. Frequency of words, in corpus; 
  | order | word | frequency | probability | percent | cumulative | deviation std | 
  | --- | --- | --- | --- | --- | --- | --- |
  | | | | | | | |
@@ -148,13 +148,29 @@ Both segments have a logaritmic reference with correlation above 0.960, as power
 
 Note:
 ```
-	sum	529831,000000	1,000000	100,000000	10184,792132	0,000000
-	average	4272,830645	0,008065	0,806452	82,135420	0,000000
+	sum		529831,000000	1,000000	100,000000	10184,792132	0,000000
+	average		4272,830645	0,008065	0,806452	82,135420	0,000000
 	average dsv	6917,629912	0,013056	1,305630	20,625872	1,631299
 	deviation	4240,565817	0,008004	0,800362	15,623017	1,000000
+
 ```
 
-| order | word | Benford std | Shanon std | Shanon bit | bit cumulative |
+# Information Stats
+
+How determine how much information each word carry ? 
+
+As any language made from words, the capacity of communication is relative to quantity of symbols (words as glphys)
+and could be estimated using Shanon Entropy Theory, and using a normalized value relative to full Entropy. 
+
+As Toki Pone have 124 symbols, just need adjust math to use base 124. 
+
+Using Benford Law as theorical reference limit { y = ln ( 1 + 1 / x ) / ln (124), 0 < x < 125 }, 
+calculating Shanon Entropy { y = - 1 * p * ln ( p ) / ln (124), p is normalized frequency (probability) } as measure of information carry each word, 
+and normalizing it for each word as a bit
+
+ Table II. Information Capacity, in corpus;
+ | order | word | Benford std | Shanon Entropy | Shanon bit | bit cumulative |
+ | --- | --- | --- | --- | --- | --- |
  | | | | | | |
  | 1 | li | 0,143798 | 0,214905 | 0,053003 | 0,053003 | 
  | 2 | e | 0,084116 | 0,180543 | 0,044528 | 0,097532 | 
@@ -285,13 +301,17 @@ Note:
 
 Notes:
 ```
-    sum 1,001666    4,054555    1,000000    94,871183
-    average 0,008078    0,032698    0,008065    0,765090
+    sum 	1,001666    4,054555    1,000000    94,871183
+    average 	0,008078    0,032698    0,008065    0,765090
     average dsv 0,016533    0,037492    0,009247    0,235581
     deviation   0,007645    0,025907    0,006390    0,187574
+
 ```
 
  ## References
- 
+
+A Mathematical Theory of Communication, [https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication] 
+
 On the Power Laws of Language: Word Frequency Distributions, [https://dl.acm.org/doi/pdf/10.1145/3077136.3080821]
+
 Power law: universality in nature, [https://francisco-rodrigues.medium.com/power-law-universality-in-nature-c933f271bda8]
