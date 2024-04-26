@@ -17,7 +17,7 @@ Both segments have a logaritmic reference with correlation above 0.960, as power
  
  Table 1. Frequency of words, in corpus; 
  | order | word | frequency | probability | percent | cumulative | deviation std | 
- | --- | --- | --- | --- | --- | --- |
+ | --- | --- | --- | --- | --- | --- | --- |
  | | | | | | |
  | 1 | li | 47007 | 0,088721 | 8,872074 | 8,872074 | 10,077469 | 
  | 2 | e | 35324 | 0,066670 | 6,667032 | 15,539106 | 7,322412 | 
