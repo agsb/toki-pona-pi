@@ -143,3 +143,7 @@ Both segments have a logaritmic reference with correlation above 0.960, as power
  | 123 | namako | 80 | 0.015099 | 99.995282 | -0.988743 | 
  | 124 | pu | 25 | 0.004718 | 100.000000 | -1.001713 | 
 
+ ## References
+ 
+On the Power Laws of Language: Word Frequency Distributions, [https://dl.acm.org/doi/pdf/10.1145/3077136.3080821]
+
