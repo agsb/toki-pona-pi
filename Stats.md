@@ -148,4 +148,4 @@ Both segments have a logaritmic reference with correlation above 0.960, as power
  ## References
  
 On the Power Laws of Language: Word Frequency Distributions, [https://dl.acm.org/doi/pdf/10.1145/3077136.3080821]
-
+Power law: universality in nature, [https://francisco-rodrigues.medium.com/power-law-universality-in-nature-c933f271bda8]
