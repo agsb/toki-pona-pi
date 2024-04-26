@@ -2,19 +2,19 @@
 
 ( this file is a stub )
   
-Using all 124 Toki Pona words for frequency analysis from Tatoeba.tok corpus with have 529831 words in 56517 lines, at 24/04/2024. 
+All frequency analysis are done using all 124 Toki Pona words from Tatoeba.tok corpus, with 529831 words in 56517 lines, in 24/04/2024. 
 
+[https://luckytoilet.wordpress.com/wp-content/uploads/2017/07/13.png]
+ 
 ## Common Stats
 
-For reference, we observed a standart average frequency of 4,272.83 with a standard deviation of 4,240.56.
+For reference, was calculated a standart average frequency of 4,272.83 with a standard deviation of 4,240.56.
 
 The 18 most frequent words, all above 1 standard deviation, correspond to more than 60% of the corpus, 
 and the remaining 106 words, between -1 to 1 standard deviation, account for 40%. 
 
 In both segments values shows a logaritimic correlation and shapes a power law distribuition.
 
-[https://luckytoilet.wordpress.com/wp-content/uploads/2017/07/13.png]
- 
  Table I. Frequency of words, in corpus; 
  | order | word | frequency | probability | percent | cumulative | deviation std | 
  | --- | --- | --- | --- | --- | --- | --- |
@@ -147,13 +147,14 @@ In both segments values shows a logaritimic correlation and shapes a power law d
  | | | | | | | |
 
 Note:
-```
-	sum		529831,000000	1,000000	100,000000	10184,792132	0,000000
-	average		4272,830645	0,008065	0,806452	82,135420	0,000000
-	average dsv	6917,629912	0,013056	1,305630	20,625872	1,631299
-	deviation	4240,565817	0,008004	0,800362	15,623017	1,000000
 
-```
+ | refer |  frequency | probability | percent | cumulative | deviation std | 
+ | --- |  --- | --- | --- | --- | --- |
+ | | | | | | |
+ |sum		|529831,000000	|1,000000	|100,000000	|10184,792132	|0,000000 |
+ |average	|4272,830645	|0,008065	|0,806452	|82,135420	|0,000000 |
+ |average dsv	|6917,629912	|0,013056	|1,305630	|20,625872	|1,631299 |
+ |deviation	|4240,565817	|0,008004	|0,800362	|15,623017	|1,000000 |
 
 # Information Stats
 
@@ -170,6 +171,7 @@ and normalizing it for each word as a bit
 
  Table II. Information Capacity, in corpus;
  | order | word | Benford std | Shanon Entropy | Shanon bit | bit cumulative |
+  | --- | --- | --- | --- | --- | --- |
  | | | | | | |
  | 1 | li | 0,143798 | 0,044583 | 0,053003 | 0,053003 | 10,758052 | 
  | 2 | e | 0,084116 | 0,037455 | 0,044528 | 0,097532 | 10,472318 | 
@@ -296,19 +298,18 @@ and normalizing it for each word as a bit
  | 123 | namako | 0,001680 | 0,000276 | 0,000328 | 0,999884 | 4,382027 | 
  | 124 | pu | 0,001666 | 0,000098 | 0,000116 | 1,000000 | 3,218876 | 
 
-
 Notes:
 
-```
+| order | Benford std | Shanon Entropy | Shanon bit | bit cumulative |
+| --- |  --- | --- | --- | --- |
+| | | | | |
+|sum		|1,001666	|0,841145	|1,000000	|94,871183	|936,363397 |
+|average	|0,008078	|0,006783	|0,008065	|0,765090	|7,551318 |
+|average dsv	|0,016533	|0,007778	|0,009247	|0,235581	|1,279941 |
+|deviation	|0,007645	|0,005375	|0,006390	|0,187574	|0,984889 |
+| | | | | |
 
-	sum			1,001666	0,841145	1,000000	94,871183	936,363397
-	average		0,008078	0,006783	0,008065	0,765090	7,551318
-	average dsv	0,016533	0,007778	0,009247	0,235581	1,279941
-	deviation	0,007645	0,005375	0,006390	0,187574	0,984889
-
-```
-
- ## References
+## References
 
 A Mathematical Theory of Communication, [https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication] 
 
