@@ -8,12 +8,20 @@
 # #n word counts
 # #b bigram counts
 
-cat $2 | tr A-Z a-z | tr '\r\t\v' '\n  ' | tr -s ' #' | \
-    tr -cd 'a-z\n #' > $2.t
+# clean
+
+cat $2 | tr A-Z a-z | tr '\r\t\v' '\n  ' | \
+         tr -s ' #' | tr -cd 'a-z\n #' > $2.t
+
+# only
 
 awk -f only_in_list.awk -v vocabulary=$1 $2.t > $3
 
+# counts
+
 awk -f counts_in_list.awk $3 > $3.t
+
+# prepare
 
 grep "#n" $3.t > $3.1x
 
@@ -21,9 +29,10 @@ grep "#b" $3.t > $3.2x
 
 grep "#t" $3.t > $3.3x
 
-sort -r -n -k 3 -t, $3.1x > $3.1s
+sort -r -n -k 3 -t, $3.1x > $3.1.csv
 
-sort -r -n -k 3 -t, $3.2x > $3.2s
+sort -r -n -k 3 -t, $3.2x > $3.2.csv
 
-sort -r -n -k 3 -t, $3.3x > $3.3s
+sort -r -n -k 3 -t, $3.3x > $3.3.csv
+
 
