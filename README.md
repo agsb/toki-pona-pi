@@ -2,8 +2,8 @@
 
 ( this file is a stub )
 
-Some statistical programs about Toki Pona. [https://tokipona.org/] and [https://en.wikipedia.org/wiki/Toki_Pona]
-
+Some statistical programs for frequency analysis about [Toki Pona](https://en.wikipedia.org/wiki/Toki_Pona) More in [Toki Pona](https://tokipona.org/).
+ 
 Steven D. Rogers, "One of the language's main goals is a focus on minimalism. It is designed to express maximal meaning with minimal complexity."
 
 ## Toki Pona
@@ -16,7 +16,7 @@ Renato Fabbri, "Basic concepts and tools for the Toki Pona minimal and construct
 
 ## Vocabularies and Dictionaries
 
-Most of meanings of Toki Pona are made by using words as concepts and associating concepts to describing things. The use and order of words does a specif  combination for translate and transmit ideas.
+Most of meanings of Toki Pona are made by using words as concepts and associating concepts to describing things. The use and order of words does combinations for translate and transmit ideas.
 
 By using common toki pona texts and calculating the correlation coefficients between words in sequence, the most used ngrams are showed. . 
 
@@ -26,7 +26,7 @@ But the common use of composition of words is inherent to any language, as produ
 
 ## Programs
 
-By simplicity the program is made in awk, with a vocabulary reference, a list of words one by line, and a text source, with lines composed by words separated by spaces, as inputs, and outputs a parsed text, with words and bigrams counts.
+By simplicity the programs use bash, tr and awk, with a vocabulary reference, a list of words one by line, and a text source, with lines composed by words separated by spaces, as inputs, and outputs a parsed text, with words and bigrams counts.
 
 Some clean processing of files, removing non a-z characters, translating to lowercase and sort lines.
 
@@ -34,29 +34,11 @@ Those programs can be used for statistics of any language.
 
 ## Corpus
 
-Got a Toki Pona corpus from tatoeba.org [https://tatoeba.org/] tatoeba.tok, with 56517 lines and 547408 words.
+Got a Toki Pona corpus  tatoeba.tok from [tatoeba.org](https://tatoeba.org/), with 56517 lines and 547408 words.
 
-Made two corpus, with and without particules (a, ala, e, kin, la, li, lon, nanpa, o, pi, seme) to processing statistcs.
+### Frequency
 
-More analysis is necessary to contextual use ala and seme. (In progress)
-
-### files
-
-Complete:
-
-        out.1s.csv, all words sorted by frequency
-            
-        out.2s.csv, all bigram words sorted by frequency
-            
-        out.3s.csv, all trigram  words sorted by frequency
-
-No particles:
-
-        out.np.1s.csv, all words sorted by frequency
-            
-        out.np.2s.csv, all bigram words sorted by frequency
-            
-        out.3np.s.csv, all trigram  words sorted by frequency
+Please look for [Frequency Analysis](https://github.com/agsb/toki-pona-pi/blob/main/Stats.md)
 
 ## Be binary ?
 
@@ -69,3 +51,7 @@ Reserving 0x04 to 0x0E for the 11 particules: a, ala, e, kin, la, li, lon, nanpa
 Next 0x0F to 0xFF are used for other glyphs sorted by alphabetic, frequency or any definided criteria.
     
 The 124 words in Toki Pona can be represented as one byte. 
+
+### More 
+
+
