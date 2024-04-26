@@ -6,7 +6,7 @@
  
  ## Full words, including all particles
 
-Using all words, we observed an average frequency of 4,272.83 with a standard deviation of 4,230.57.
+For reference, we observed a standart average frequency of 4,272.83 with a standard deviation of 4,240.56.
 
 The 18 most frequent words, all above 1 standard deviation, correspond to more than 60% of the corpus, 
 and the remaining 106 words, between -1 to 1 standard deviation, account for 40%. 
@@ -18,6 +18,7 @@ Both segments have a logaritmic reference with correlation above 0.960, as power
  Table 1. The 18 most frequency words, about 60% of corpus; 
  | order | word | frequency | percent | cumulative | deviations |  
  | --- | --- | --- | --- | --- | --- |
+ | | | | | |
  | 1 | li | 47007 | 8.872074 | 8.872074 | 10.077469 | 
  | 2 | e | 35324 | 6.667032 | 15.539106 | 7.322412 | 
  | 3 | mi | 26510 | 5.003482 | 20.542588 | 5.243916 | 
@@ -36,6 +37,7 @@ Both segments have a logaritmic reference with correlation above 0.960, as power
  | 16 | pona | 9566 | 1.805481 | 57.045737 | 1.248222 | 
  | 17 | mute | 9510 | 1.794912 | 58.840649 | 1.235017 | 
  | 18 | seme | 8566 | 1.616742 | 60.457391 | 1.012405 | 
+ | | | | | |
  | 19 | wile | 8121 | 1.532753 | 61.990144 | 0.907466 | 
  | 20 | sona | 7222 | 1.363076 | 63.353220 | 0.695466 | 
  | 21 | tomo | 6934 | 1.308719 | 64.661939 | 0.627551 | 
