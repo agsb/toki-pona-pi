@@ -4,7 +4,9 @@
   
 All frequency analysis are done using all 124 Toki Pona words from Tatoeba.tok corpus, with 529831 words in 56517 lines, in 24/04/2024. 
 
-[https://luckytoilet.wordpress.com/wp-content/uploads/2017/07/13.png]
+![Zipf Theorem](https://github.com/agsb/toki-pona-pi/assets/14941647/1b51215b-4660-4199-85b1-f97136cac7c8) 
+
+from [https://luckytoilet.wordpress.com/wp-content/uploads/2017/07/13.png]
  
 ## Common Stats
 
