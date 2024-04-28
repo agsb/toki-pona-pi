@@ -10,7 +10,7 @@ from [https://luckytoilet.wordpress.com/wp-content/uploads/2017/07/13.png]
  
 ## Common Stats
 
-For reference, was calculated a standart average frequency of 4,272.83 with a standard deviation of 4,240.56.
+Just for reference, was calculated a standart average frequency of 4,272.83 with a standard deviation of 4,240.56.
 
 The 18 most frequent words, all above 1 standard deviation, correspond to more than 60% of the corpus, 
 and the remaining 106 words, between -1 to 1 standard deviation, account for 40%. 
@@ -62,6 +62,7 @@ In both segments values shows a logaritimic correlation and shapes a power law d
  | 38 | sama | 3073 | 0,005800 | 0,579996 | 79,270560 | -0,282941 | 
  | 39 | suno | 3037 | 0,005732 | 0,573202 | 79,843762 | -0,291431 | 
  | 40 | moku | 3035 | 0,005728 | 0,572824 | 80,416586 | -0,291902 | 
+ | | | | | | | |
  | 41 | ijo | 2958 | 0,005583 | 0,558291 | 80,974877 | -0,310060 | 
  | 42 | anu | 2823 | 0,005328 | 0,532811 | 81,507688 | -0,341896 | 
  | 43 | lawa | 2804 | 0,005292 | 0,529225 | 82,036914 | -0,346376 | 
@@ -165,11 +166,11 @@ How determine how much information each word carry ?
 As any language made from words, the capacity of communication is relative to quantity of symbols (words as glphys)
 and could be estimated using Shanon Entropy Theory, and using a normalized value relative to full Entropy. 
 
-As Toki Pone have 124 symbols, just need adjust math to use base 124. 
+As Toki Pone have 124 symbols, just need scale math to use base 124. 
 
 Using Benford Law as theorical reference limit { y = ln ( 1 + 1 / x ) / ln (124), 0 < x < 125 }, 
-calculating Shanon Entropy { y = - 1 * p * ln ( p ) / ln (124), p is normalized frequency (probability) } as measure of information carry each word, 
-and normalizing it for each word as a bit
+calculating Shanon Entropy { y = - 1 * p * ln ( p ) / ln (124), p is normalized frequency (probability) },
+as measure of information carry each word, and normalizing it for each word as a bit.
 
  Table II. Information Capacity, in corpus;
  | order | word | Benford std | Shanon Entropy | Shanon bit | bit cumulative |
