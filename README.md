@@ -26,7 +26,7 @@ But the common use of composition of words is inherent to any language, as produ
 
 ## Programs
 
-By simplicity the programs use bash, tr and awk, with a vocabulary reference, a list of words one by line, and a text source, with lines composed by words separated by spaces, as inputs, and outputs a parsed text, with words and bigrams counts.
+By simplicity the programs use bash, tr and awk, with a vocabulary reference, a list of words one by line, and a text source, with lines composed by words separated by spaces, as inputs, and outputs a parsed text with only words in vocabulary, and a file with counts for words and bigrams.
 
 Some clean processing of files, removing non a-z characters, translating to lowercase and sort lines.
 
