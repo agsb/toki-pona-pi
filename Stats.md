@@ -4,9 +4,10 @@
   
 All frequency analysis are done using all 124 Toki Pona words from Tatoeba.tok corpus, with 529831 words in 56517 lines, in 24/04/2024. 
 
-![Zipf Theorem](https://github.com/agsb/toki-pona-pi/assets/14941647/1b51215b-4660-4199-85b1-f97136cac7c8) 
+![All Words](https://github.com/agsb/toki-pona-pi/assets/14941647/dd5a8bc9-f4f0-4a02-8c5a-e525ad705b33)
 
-from [https://luckytoilet.wordpress.com/wp-content/uploads/2017/07/13.png]
+from https://www.reddit.com/r/tokipona/comments/39xkor/poster_all_toki_pona_symbols/#lightbox
+
  
 ## Common Stats
 
@@ -15,7 +16,11 @@ Just for reference, was calculated a standart average frequency of 4,272.83 with
 The 18 most frequent words, all above 1 standard deviation, correspond to more than 60% of the corpus, 
 and the remaining 106 words, between -1 to 1 standard deviation, account for 40%. 
 
-In both segments values shows a logaritimic correlation and shapes a power law distribuition.
+In both segments values shows a logaritimic correlation and shapes a power law distribuition as expected by [Zipf Law](https://en.wikipedia.org/wiki/Zipf%27s_law)
+
+![Zipf Theorem](https://github.com/agsb/toki-pona-pi/assets/14941647/1b51215b-4660-4199-85b1-f97136cac7c8) 
+
+from [https://luckytoilet.wordpress.com/wp-content/uploads/2017/07/13.png]
 
  Table I. Frequency of words, in corpus; 
  | order | word | frequency | probability | percent | cumulative | deviation std | 
