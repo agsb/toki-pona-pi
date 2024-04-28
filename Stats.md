@@ -303,14 +303,14 @@ as measure of information carry each word, and normalizing it for each word as a
 
 Notes:
 
-| order | Benford std | Shanon Entropy | Shanon bit | bit cumulative |
-| --- |  --- | --- | --- | --- |
-| | | | | |
-|sum		|1,001666	|0,841145	|1,000000	|94,871183	|936,363397 |
-|average	|0,008078	|0,006783	|0,008065	|0,765090	|7,551318 |
-|average dsv	|0,016533	|0,007778	|0,009247	|0,235581	|1,279941 |
-|deviation	|0,007645	|0,005375	|0,006390	|0,187574	|0,984889 |
-| | | | | |
+| stat | Benford std | Shanon Entropy | Shanon bit |
+| --- |  --- | --- | --- |
+| | | |
+|sum		|1,001666	|0,841145	|1,000000	|
+|average	|0,008078	|0,006783	|0,008065	|
+|average dsv	|0,016533	|0,007778	|0,009247	|
+|deviation	|0,007645	|0,005375	|0,006390	|
+| | | | 
 
 ## References
 [https://github.com/agsb/toki-pona-pi/blob/main/toki_pona-words.tsv]
