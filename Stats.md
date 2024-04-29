@@ -23,7 +23,7 @@ In both segments values shows a logaritimic correlation and shapes a power law d
 from [https://luckytoilet.wordpress.com/wp-content/uploads/2017/07/13.png]
 
  Table I. Frequency of words, in corpus; 
- | order | word | frequency | probability | percent | cumulative | deviation std | 
+ | order | word | frequency | probability | percent | cumulative | deviation units | 
  | --- | --- | --- | --- | --- | --- | --- |
  | | | | | | | |
  | 1 | li | 47007 | 0,088721 | 8,872074 | 8,872074 | 10,077469 | 
@@ -178,7 +178,7 @@ calculating Shanon Entropy { y = - 1 * p * ln ( p ) / ln (124), p is normalized 
 as measure of information carry each word, and normalizing it for each word as a bit.
 
  Table II. Information Capacity, in corpus;
- | order | word | Benford std | Shanon Entropy | Shanon bit | bit cumulative |
+ | order | word | Benford std | Shanon Entropy | Shanon Normalized | Shanon cumulative |
   | --- | --- | --- | --- | --- | --- |
  | | | | | | |
  | 1 | li | 0,143798 | 0,044583 | 0,053003 | 0,053003 | 
