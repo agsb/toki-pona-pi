@@ -2,7 +2,7 @@
 
 ( this file is a stub )
 
-Some statistical programs for frequency analysis about [Toki Pona](https://en.wikipedia.org/wiki/Toki_Pona) Want know more about [Toki Pona](https://tokipona.org/) ?
+Some statistical programs for frequency analysis about [Toki Pona](https://en.wikipedia.org/wiki/Toki_Pona). Want know more about [Toki Pona](https://tokipona.org/) ?
  
 Steven D. Rogers, said "One of the language's main goals is a focus on minimalism. It is designed to express maximal meaning with minimal complexity."
 
