@@ -12,7 +12,7 @@ Just for reference, was calculated a standart average frequency of 4,272.83 with
 The 18 most frequent words, all above 1 standard deviation, correspond to more than 60% of the corpus, 
 and the remaining 106 words, between -1 to 1 standard deviation, account for 40%. 
 
-In both segments values shows a logaritimic correlation and shapes a power law distribuition as expected by [Zipf Law](https://en.wikipedia.org/wiki/Zipf%27s_law)
+In both segments values shows a logaritimic correlation and shapes a power law distribuition as expected by [Zipf Law](https://en.wikipedia.org/wiki/Zipf%27s_law). The Zipf's law describes how the frequency of a word in natural language, is dependent on its rank in the frequency table.
 
 ![Zipf Theorem](https://github.com/agsb/toki-pona-pi/assets/14941647/1b51215b-4660-4199-85b1-f97136cac7c8) 
 
