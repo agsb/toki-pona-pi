@@ -1,5 +1,7 @@
 # toki-pona-pi
 
+01/05/2024  I'm in vacancy to refresh some ideas.
+
 ( this file is a stub )
 
 Some statistical programs for frequency analysis about [Toki Pona](https://en.wikipedia.org/wiki/Toki_Pona). Want know more about [Toki Pona](https://tokipona.org/) ?
