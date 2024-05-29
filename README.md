@@ -1,6 +1,6 @@
 # toki-pona-pi
 
-01/05/2024  I'm in vacancy to refresh some ideas.
+_01/05/2024  I'm in vacancy to refresh some ideas._
 
 ( this file is a stub )
 
