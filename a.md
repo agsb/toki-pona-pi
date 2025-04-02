@@ -14,7 +14,7 @@
  
  
  
- ### ***CONVENÇÕES GEOLÓGICAS E GEOFÍSICAS PARA REPRESENTAÇÃO EM MAPAS GEOLÓGICOS***
+ ## ***CONVENÇÕES GEOLÓGICAS E GEOFÍSICAS PARA REPRESENTAÇÃO EM MAPAS GEOLÓGICOS***
  
  | SÍMBOLO  | TAMANHO (points)/(mm) | COR | NOMENCLATURA | CÓDIGO UTF-8 | OBSERVAÇÕES/DESCRIÇÃO | 
  | --------- |:---------:| :---------: | :---------: | :---------: | :---------: | 
@@ -197,7 +197,7 @@
  | ![](https://raw.githubusercontent.com/sgb-cprm/simbologia-mapeamento-geologico/refs/heads/master/fonts/glyphs/geology/-CPRMGeologyRegular.svg "" ) |  /  |  |  |  | 
  
  
- ### ***SIMBOLOGIA DE FÓSSEIS***
+ ## ***SIMBOLOGIA DE FÓSSEIS***
  
  | SÍMBOLO  | TAMANHO (points)/(mm) | COR | NOMENCLATURA | CÓDIGO UTF-8 | OBSERVAÇÕES/DESCRIÇÃO | 
  | --------- |:---------:| :---------: | :---------: | :---------: | :---------: | 
@@ -249,7 +249,7 @@
  | ![](https://raw.githubusercontent.com/sgb-cprm/simbologia-mapeamento-geologico/refs/heads/master/fonts/glyphs/stratigraphy-paleontology/-CPRMStratigrPaleontRegular.svg "" ) |  /  |  |  |  | 
  
  
- ### ***SIMBOLOGIA DE ESTRUTURAS SEDIMENTARES***
+ ## ***SIMBOLOGIA DE ESTRUTURAS SEDIMENTARES***
  
  | SÍMBOLO  | TAMANHO (points)/(mm) | COR | NOMENCLATURA | CÓDIGO UTF-8 | OBSERVAÇÕES/DESCRIÇÃO | 
  | --------- |:---------:| :---------: | :---------: | :---------: | :---------: | 
